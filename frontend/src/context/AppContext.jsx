@@ -10,7 +10,7 @@ export const AppContext = createContext()
 const AppContextProvider = (props) => {
 
     const currencySymbol = '$'
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://prescripto-backend-9dy7.onrender.com/"
     //console.log("Backend URL:", backendUrl);
 
     const [doctors,setDoctors] = useState([])
